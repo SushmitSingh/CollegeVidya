@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.content.Context" />
+        <variable
+            name="viewModel"
+            type="com.app.collegevidya.data.viewmodel.OptionsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ic_option_click"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:layout_margin="@dimen/_5sdp"
+            tools:text="Yes"
+            android:textColor="@drawable/drawable_color_open"
+            android:textAlignment="center"
+            android:text="@{viewModel.options}"
+            android:textSize="@dimen/text_16px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

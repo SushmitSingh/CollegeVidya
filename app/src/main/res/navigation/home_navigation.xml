@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/nav_host_homeFragment">
+
+    <fragment
+        android:id="@+id/nav_host_homeFragment"
+        android:name="com.app.collegevidya.ui.home.HomeFragment"
+        android:label="fragment_home">
+        <action
+            android:id="@+id/action_nav_host_homeFragment_to_formFragment"
+            app:destination="@id/formFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navFragment"
+        android:name="com.app.collegevidya.ui.home.NavFragment"
+        android:label="NavFragment">
+        <action
+            android:id="@+id/action_navFragment_to_formFragment"
+            app:destination="@id/formFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@id/nav_host_homeFragment" />
+        <action
+            android:id="@+id/action_navFragment_to_cvTvVideoFraggment"
+            app:destination="@id/cvTvVideoFraggment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.app.collegevidya.ui.home.FormFragment"
+        android:label="FormFragment">
+        <action
+            android:id="@+id/action_formFragment_to_compareCollegeFragment"
+            app:destination="@id/compareCollegeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/compareCollegeFragment"
+        android:name="com.app.collegevidya.ui.home.CompareCollegeFragment"
+        android:label="CompareCollegeFragment" />
+    <fragment
+        android:id="@+id/cvTvVideoFraggment"
+        android:name="com.app.collegevidya.ui.cvtv.CvTvVideoFraggment"
+        android:label="CvTvVideoFraggment">
+        <action
+            android:id="@+id/action_cvTvVideoFraggment_to_exoPlayerFragment"
+            app:destination="@id/exoPlayerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/exoPlayerFragment"
+        android:name="com.app.collegevidya.ui.cvtv.ExoPlayerFragment"
+        android:label="ExoPlayerFragment">
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="default" />
+    </fragment>
+</navigation>

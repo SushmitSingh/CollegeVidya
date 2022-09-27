@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolBarSize">@dimen/_52sdp</dimen>
+    <dimen name="text_30px">@dimen/_22ssp</dimen>
+    <dimen name="text_28px">@dimen/_20ssp</dimen>
+    <dimen name="text_26px">@dimen/_18ssp</dimen>
+    <dimen name="text_24px">@dimen/_17ssp</dimen>
+    <dimen name="text_22px">@dimen/_16ssp</dimen>
+    <dimen name="text_20px">@dimen/_15ssp</dimen>
+    <dimen name="text_18px">@dimen/_14ssp</dimen>
+    <dimen name="text_17px">@dimen/_13ssp</dimen>
+    <dimen name="text_16px">@dimen/_12ssp</dimen>
+    <dimen name="text_14px">@dimen/_11ssp</dimen>
+    <dimen name="text_13px">@dimen/_10ssp</dimen>
+    <dimen name="text_12px">@dimen/_9ssp</dimen>
+    <dimen name="text_10px">@dimen/_8ssp</dimen>
+    <dimen name="text_9px">@dimen/_7ssp</dimen>
+    <dimen name="text_8px">@dimen/_6ssp</dimen>
+    <dimen name="text_6px">@dimen/_5ssp</dimen>
+
+    <dimen name="activity_horizontal_margin">@dimen/_12ssp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/_12sdp</dimen>
+    <dimen name="nav_header_vertical_spacing">@dimen/_7sdp</dimen>
+    <dimen name="nav_header_height">@dimen/_120sdp</dimen>
+    <dimen name="fab_margin">@dimen/_12ssp</dimen>
+
+    <dimen name="size_avatar_toolbar">40dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="elevation_header">4dp</dimen>
+    <dimen name="send_message_edittext">6dp</dimen>
+    <dimen name="sign_in_welcome_text">30sp</dimen>
+
+</resources>

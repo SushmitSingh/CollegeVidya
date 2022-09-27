@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PrateekAndroidWorkSpace/GitSample/CollegeVidya/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/PrateekAndroidWorkSpace/GitSample/CollegeVidya/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/bird_anim.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/btn_outline.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/click_ripple.xml" value="0.11927083333333334" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/dailog_full_screen.xml" value="0.1655" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/dash_back.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/dash_background.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/dash_card_background.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/desh_card_background.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/drawable_color_open.xml" value="0.2025" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/drawable_quick_options.xml" value="0.152" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/drawable_quick_tab_open_selector.xml" value="0.1655" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/drawable_tab.xml" value="0.16" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/drawable_tab_open_selector.xml" value="0.182" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/drawable_tab_presed.xml" value="0.182" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/drawle_tab_open.xml" value="0.146" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/first_corner_radius_4dp.xml" value="0.231" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_back.xml" value="0.11302083333333333" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_background_dash.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_bird.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_bird_anim.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_bottom_round.xml" value="0.2175" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_btn_background.xml" value="0.1609375" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_btn_outline.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_close_btn_background.xml" value="0.231" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_compare.xml" value="0.191" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_corner_round.xml" value="0.1671875" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_corner_round_2dp.xml" value="0.2175" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_cvtv_option.xml" value="0.1495" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_dotted_line.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_input_outline.xml" value="0.2225" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_login_vector.xml" value="0.1" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_option_click.xml" value="0.156" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_otp_selector.xml" value="0.155" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_round.xml" value="0.231" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_round_7dp.xml" value="0.181" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_thin_border.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_thin_outline_black.xml" value="0.240625" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_thin_round_shape.xml" value="0.2175" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_top_round_10dp.xml" value="0.1555" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_top_round_4dp_blue.xml" value="0.23" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_top_round_8dp_gray.xml" value="0.2175" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/ic_university.xml" value="0.191" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/last_corner_radius_4dp.xml" value="0.231" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/lightbulb.xml" value="0.1" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/drawable/otp_selector.xml" value="0.1671875" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/font/montserrat.xml" value="0.12708333333333333" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/font/poppins.xml" value="0.2546875" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/font/poppins_medium.xml" value="0.12708333333333333" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/font/roboto_bold.xml" value="0.2546875" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/font/roboto_regular.xml" value="0.13333333333333333" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout-v26/item_compare_university.xml" value="0.1" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/activity_auth.xml" value="0.11041666666666666" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/bottom_sheet_compare.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/bottom_sheet_compare_adapter.xml" value="0.2" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/comman_toolbar.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/empty_video.xml" value="0.16203703703703703" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/find_quick_university_fragment.xml" value="0.15555555555555556" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_compare_college.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_cv_tv_video_fraggment.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_exo_player.xml" value="0.15" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_find_quick_university_dailog.xml" value="0.14" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_form.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_login_with_number.xml" value="0.18" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_nav.xml" value="0.1" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_on_bording.xml" value="0.14479166666666668" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/fragment_otp.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_bottom_sheet_compare.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_compare_university.xml" value="0.1" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_course_dashboard.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_cvtv_options.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_cvtv_video.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_dashboard_feature.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_dashboard_overeview.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_dashboard_overview_text.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_dashboard_review.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_dashboard_slider.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_options.xml" value="0.33" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/item_quick_find_tabs.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/layout_screen.xml" value="0.2" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/layout/onboarding_layout_screen.xml" value="0.25" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/menu/home_bottom_menu.xml" value="0.13697916666666668" />
+        <entry key="..\:/SushmitWorkSpace/CollegeVidya/app/src/main/res/menu/menu.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/item_options.xml" value="0.15989583333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

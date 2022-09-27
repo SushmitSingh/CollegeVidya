@@ -1,0 +1,58 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/ic_top_round_10dp"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vpQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            app:layout_constraintBottom_toTopOf="@+id/btnNext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:listitem="@layout/item_bottom_sheet_compare" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:backgroundTint="@color/link_blue"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_16px"
+            app:cornerRadius="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnPre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnPre" />
+
+        <Button
+            android:id="@+id/btnPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="@color/link_blue"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            android:text="Previous"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_16px"
+            app:cornerRadius="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnNext" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

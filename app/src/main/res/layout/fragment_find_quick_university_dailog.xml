@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.FindQuickUniversityDailogFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/text_blue"
+        android:background="@drawable/ic_corner_round">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="@string/get_best_on"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="@dimen/text_16px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.shuhart.stepview.StepView
+            android:id="@+id/stepView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_4sdp"
+            android:textSize="@dimen/text_10px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            app:sv_animationType="All"
+            app:sv_doneStepLineColor="@color/orange"
+            app:sv_nextStepCircleColor="#ACCBE5"
+            app:sv_nextStepCircleEnabled="true"
+            app:sv_nextTextColor="@color/text_blue"
+            app:sv_selectedCircleColor="@color/white"
+            app:sv_selectedStepNumberColor="@color/orange"
+            app:sv_selectedTextColor="@color/orange_btn"
+            app:sv_stepLineWidth="@dimen/_2sdp"
+            app:sv_stepPadding="@dimen/_1sdp"
+            app:sv_stepViewStyle="@style/StepView"
+            app:sv_stepsNumber="7" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:text="@string/select_dist"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20px"
+            android:letterSpacing="0.04"
+            android:fontFamily="@font/roboto_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stepView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvQuickFind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:itemCount="3"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            tools:listitem="@layout/item_quick_find_tabs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/ic_check"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_banner" />
+
+        <TextView
+            android:id="@+id/tv_found_university"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/university_"
+            android:textStyle="bold"
+            android:letterSpacing="0.04"
+            android:textSize="@dimen/text_14px"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            app:layout_constraintBottom_toTopOf="@+id/textView40"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/matching_ab"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_12px"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="@+id/tv_found_university"
+            app:layout_constraintTop_toBottomOf="@+id/tv_found_university" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingTop="@dimen/_7sdp"
+            android:backgroundTint="@color/orange"
+            app:layout_constraintBottom_toBottomOf="@+id/textView40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_found_university" />
+
+        <TextView
+            android:id="@+id/tv_banner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@color/green"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="@dimen/_2sdp"
+            android:text="@string/students_re"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16px"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rvQuickFind" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

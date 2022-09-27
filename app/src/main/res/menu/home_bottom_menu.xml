@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/explore"
+        android:enabled="true"
+        android:icon="@drawable/ic_compass"
+        android:title="@string/explore" />
+
+    <item
+        android:id="@+id/compare"
+        android:enabled="true"
+        android:icon="@drawable/ic_compare"
+        android:title="@string/compare" />
+
+    <item
+        android:id="@+id/topUniversity"
+        android:enabled="true"
+        android:icon="@drawable/ic_university"
+        android:title="@string/top_university" />
+</menu>

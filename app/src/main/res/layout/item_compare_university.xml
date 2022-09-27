@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.content.Context" />
+        <variable
+            name="viewModel"
+            type="com.app.collegevidya.data.viewmodel.CompareViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ic_bottom_round"
+        android:elevation="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_bottom_round"
+            android:backgroundTint="@color/white"
+            android:elevation="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_9sdp"
+                app:layout_constraintEnd_toStartOf="@+id/divider10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_lpu_logo" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:lineSpacingExtra="-2dp"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:text="@string/_1300_n_semester"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_13px"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+                app:layout_constraintEnd_toStartOf="@+id/divider8"
+                app:layout_constraintStart_toEndOf="@+id/divider10"
+                app:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+            <ImageView
+                android:id="@+id/smallTooltip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{(view)->viewModel.onItemClick(view)}"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                app:layout_constraintEnd_toEndOf="@+id/textView34"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_not_sign" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/textView35"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView34"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/divider8"
+                app:layout_constraintTop_toTopOf="@+id/textView34">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_corner_round"
+                    android:backgroundTint="@color/orange_btn"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_3sdp"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:paddingEnd="@dimen/_3sdp"
+                    android:paddingBottom="@dimen/_7sdp"
+                    android:text="@string/add_to_compare"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_10px"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </TextView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_top_round_8dp_gray"
+                android:gravity="center"
+                android:paddingStart="@dimen/_30sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingEnd="@dimen/_30sdp"
+                android:paddingBottom="@dimen/_2sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_14sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:src="@drawable/dashicons_star_filled"
+                    app:tint="#FFC107" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:padding="@dimen/_2sdp"
+                    android:text="9.8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_12px" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_14sdp"
+                    android:padding="@dimen/_1sdp"
+                    android:onClick="@{(view)->viewModel.onItemClick(view)}"
+                    android:src="@drawable/ic_not_sign"
+                    android:tooltipText="@string/compare_now" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:background="@color/gray_light"
+                app:layout_constraintBottom_toBottomOf="@+id/textView35"
+                app:layout_constraintEnd_toStartOf="@+id/textView35"
+                app:layout_constraintStart_toEndOf="@+id/textView34"
+                app:layout_constraintTop_toTopOf="@+id/textView35"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:background="@color/gray_light"
+                app:layout_constraintBottom_toBottomOf="@+id/textView34"
+                app:layout_constraintEnd_toStartOf="@+id/textView34"
+                app:layout_constraintStart_toEndOf="@+id/imageView20"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:drawableStart="@drawable/ic_right"
+            android:drawableTint="@color/gray"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/pros"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_12px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:drawableStart="@drawable/ic_right"
+            android:drawableTint="@color/orange_btn"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/cons"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_12px"
+            app:layout_constraintBottom_toBottomOf="@+id/textView36"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView36" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

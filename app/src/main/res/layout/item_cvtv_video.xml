@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.content.Context" />
+
+        <variable
+            name="viewModel"
+            type="com.app.collegevidya.data.viewmodel.CvTvVideoViewModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_7sdp"
+        android:id="@+id/videoCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{(view)->viewModel.onItemClick(view)}"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivThumb"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/ic_video_back"
+                app:layout_constraintDimensionRatio="2.1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Is Chandigarh University Online &amp; Distance Good or Bad: Honest &amp; Unbiased Reviews? | College Vidya"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivThumb" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:padding="@dimen/_4sdp"
+                android:background="@drawable/ic_video"
+                android:elevation="@dimen/_5sdp"
+                android:onClick="@{(view)->viewModel.onItemClick(view)}"
+                app:layout_constraintBottom_toBottomOf="@+id/ivThumb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

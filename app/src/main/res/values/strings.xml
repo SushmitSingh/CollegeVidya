@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">College Vidya</string>
+    <!--OnBoarding Splash & Home-->
+    <string name="selection_process">Selection Process,\nMade Simple!</string>
+    <string name="explore_compare">Explore and compare between top\nonline universities to select wisely</string>
+    <string name="our_guidance">Our Guidance \nYour Decision</string>
+    <string name="make_the_best">Make the best decision for yourself \nwith all the required information</string>
+    <string name="we_got_you">We Got You, \nFrom Start to End.</string>
+    <string name="from_pre_ad">From pre admission to post admission,\nwe are here for you and all your queries</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="welcome_to_college">Welcome to College Vidya</string>
+    <string name="tag_chuno">#Chunowahijohaisahi</string>
+    <string name="login_via_google">Login via Google</string>
+    <string name="login_via_number">Login via Mobile Number</string>
+    <string name="or">OR</string>
+    <string name="privacy_policy">By continuing, you agree with our<font color='#0074D7'> Privacy Policy </font> and <font color='#0074D7'>Terms Of Use</font></string>
+    <string name="skip">Skip</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mobile_number">Mobile Number</string>
+    <string name="continue_">Continue</string>
+    <string name="otp_sent_to">OTP sent to</string>
+    <string name="select_a_course">Select a Course</string>
+    <string name="select_a_product">Select a Product</string>
+    <string name="let_s_find_">Let\'s find\nyou the Best \nOnline University</string>
+    <string name="college_vid">College vidya commitment</string>
+    <string name="compare_feature">Compare Features <font color='#0074D7'>#ChunoWahiJoHaiSahi</font></string>
+
+    <!--Nav Bar-->
+    <string name="compare_uni">Compare Universities</string>
+    <string name="pg_course">PG Course</string>
+    <string name="ug_course">UG Course</string>
+    <string name="top_university">Top University</string>
+    <string name="diploma_certificate">Diploma &amp; Certificate</string>
+    <string name="contact_us">Contact us</string>
+    <string name="new_user_18004205757">New User : 18004205757</string>
+    <string name="existing_user_18003097947">Existing User : 18003097947</string>
+    <string name="suggest_me_a_university">Suggest Me A University</string>
+    <string name="collegevidya_commitment">CollegeVidya Commitment</string>
+    <string name="important_videos_cv_tv">Important Videos(CV TV)</string>
+    <string name="why_trust_us">Why Trust Us</string>
+
+    <!--Form Fragment-->
+    <string name="compare_sel"><font color="#0088EA">Compare &amp; Select</font> Best University</string>
+    <string name="compare_sel_on">for your Online &amp; Distance MA Course</string>
+    <string name="get_approve">Get Approved\nUniversity</string>
+    <string name="placement_a">100% Placement\nAssistance</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="state">State</string>
+    <string name="select_stat">Select State</string>
+    <string name="mobile_numb">Mobile Number</string>
+    <string name="age">Age</string>
+    <string name="select_cour">Select Course</string>
+    <string name="find_best_u">Find Best University</string>
+    <string name="number"><u>1800-420-5757</u></string>
+
+    <string name="we_at_ncollege_vidya_are_delighted_to_see_you">Hey Kavya Sinha, I am Pooja, We at\nCollege Vidya are delighted to see you. We\nwill definitely assist you in selecting the best University for MA English</string>
+    <string name="universities">Universities</string>
+    <string name="compare_now">Compare Now</string>
+    <string name="fee">Fee</string>
+    <string name="add_to_compare">Add To Compare</string>
+    <string name="_1300_n_semester">\u20B9 1300/\nSemester</string>
+    <string name="pros"><font color="#4ED2AB">Pros </font> : Online Exam></string>
+    <string name="cons"><font color="#FD4705">Cons </font>: Only Offline></string>
+    <string name="explore">Explore</string>
+    <string name="compare">Compare</string>
+    <string name="verify_otp">OTP Verification</string>
+    <string name="use_different_phone_number">Use Different Phone Number</string>
+    <string name="get_best_on">Get Best Online University in 2 mins</string>
+    <string name="select_dist">Select Distance &amp; Online Course</string>
+    <string name="what_makes_ncollege_vidya_the_nbest">What makes\nCollege Vidya the\nbest place to\ntake admission\nguidance in\nonline degree\neducation\nin India?</string>
+    <string name="submit">Submit</string>
+    <string name="university_">19 University Found</string>
+    <string name="matching_ab">Matching above criteria</string>
+    <string name="students_re">50,000+ Students received their right university           50,000+ Students received their right university</string>
+    <string name="resend">Resend</string>
+    <string name="enter_tha_verification_code_we_sent_nto_7905646998">Enter Tha Verification code we sent\nto 7905646998</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvUgCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="@drawable/drawable_quick_tab_open_selector"
+
+            android:elevation="@dimen/_3sdp"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:text="@string/diploma_certificate"
+            android:textAlignment="center"
+            android:textColor="@drawable/drawable_color_open"
+            android:textSize="@dimen/text_12px"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

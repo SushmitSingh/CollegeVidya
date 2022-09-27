@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96119286802",
+    "project_id": "cv-mobile-app-680b6",
+    "storage_bucket": "cv-mobile-app-680b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96119286802:android:0109964b4bd1c48a50fccb",
+        "android_client_info": {
+          "package_name": "com.app.collegevidya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96119286802-9jah1qjbgf84boj1i07754ha4r3r5h2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0PHRCI6LZj1Ye687O8X-pTSbiBuIPfHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96119286802-9jah1qjbgf84boj1i07754ha4r3r5h2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:id="@+id/clView"
+        android:layout_height="match_parent">
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/collapseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                app:layout_constraintBottom_toTopOf="@+id/appCompatTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_scrollFlags="scroll"
+                    android:fitsSystemWindows="true">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <include
+                            android:id="@+id/toolBar"
+                            layout="@layout/comman_toolbar"
+                            app:layout_collapseMode="pin"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/toolBarSize"
+                            app:layout_constraintBottom_toTopOf="@+id/cardView2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView2"
+                            android:layout_width="0dp"
+                            app:layout_collapseMode="pin"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            app:cardCornerRadius="@dimen/_7sdp"
+                            app:cardElevation="@dimen/_5sdp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/toolBar">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView18"
+                                    android:layout_width="@dimen/_31sdp"
+                                    android:layout_height="@dimen/_31sdp"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:background="@drawable/ic_thin_round_shape"
+                                    android:elevation="6dp"
+                                    android:src="@drawable/ic_cv_logo_circle"
+                                    app:layout_constraintBottom_toBottomOf="@+id/textView33"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+                                <TextView
+                                    android:id="@+id/textView33"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_8sdp"
+                                    android:layout_marginTop="@dimen/_9sdp"
+                                    android:layout_marginEnd="@dimen/_8sdp"
+                                    android:layout_marginBottom="@dimen/_9sdp"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="@string/we_at_ncollege_vidya_are_delighted_to_see_you"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/text_14px"
+                                    android:textAlignment="center"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toEndOf="@+id/imageView18"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@+id/imageView19"
+                                    android:layout_width="@dimen/_8sdp"
+                                    android:layout_height="@dimen/_8sdp"
+                                    android:background="@drawable/ic_corner_round"
+                                    android:backgroundTint="@color/online"
+                                    android:elevation="6dp"
+                                    app:layout_constraintEnd_toEndOf="@+id/imageView18"
+                                    app:layout_constraintTop_toTopOf="@+id/imageView18" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:background="@drawable/first_corner_radius_4dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:text="@string/universities"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_12px"
+                    app:layout_constraintEnd_toStartOf="@+id/appCompatTextView2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                    android:id="@+id/appCompatTextView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray_dark"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:text="@string/fee"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_12px"
+                    app:layout_constraintBottom_toBottomOf="@+id/appCompatTextView"
+                    app:layout_constraintEnd_toStartOf="@+id/appCompatTextView3"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatTextView"
+                    app:layout_constraintTop_toTopOf="@+id/appCompatTextView">
+
+                </androidx.appcompat.widget.AppCompatAutoCompleteTextView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:background="@drawable/last_corner_radius_4dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:text="@string/compare_now"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_12px"
+                    app:layout_constraintBottom_toBottomOf="@+id/appCompatTextView2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatTextView2"
+                    app:layout_constraintTop_toTopOf="@+id/appCompatTextView2"
+                    app:layout_goneMarginStart="@dimen/_10sdp">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:background="@drawable/ic_top_round_4dp_blue"
+                    android:backgroundTint="@color/blue_unselected"
+                    android:elevation="@dimen/_8sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    app:layout_constraintEnd_toEndOf="@+id/appCompatTextView3"
+                    app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/appCompatTextView">
+
+                    <ImageView
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_marginEnd="@dimen/_2sdp"
+                        android:src="@drawable/ic_spark" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:text="@string/add_to_compare"
+                        android:textColor="@color/text_blue"
+                        android:textSize="@dimen/text_14px"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvCompare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    android:nestedScrollingEnabled="false"
+                    android:scrollIndicators="none"
+                    android:scrollbarStyle="insideOverlay"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/item_compare_university" />
+                <LinearLayout
+                    android:id="@+id/linearLayout14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue_unselected"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_4sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_6sdp"
+                        android:layout_marginEnd="@dimen/_6sdp"
+                        android:backgroundTint="@color/orange_btn"
+                        android:text="Do Detailed Comparison &amp; Select Best One"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_10px"
+                        app:icon="@drawable/ic_arrow"
+                        app:iconGravity="textStart"
+                        app:iconSize="@dimen/_14sdp" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

@@ -1,0 +1,109 @@
+plugins {
+    id 'com.android.application'
+    id 'androidx.navigation.safeargs'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.app.collegevidya"
+        minSdk 23
+        targetSdk 31
+        versionCode 2
+        versionName "1.0.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        dataBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        resources.excludes.add("META-INF/*")
+    }
+}
+
+dependencies {
+
+    def lifecycle_version = "2.5.0-alpha02"
+    def arch_version = "2.1.0"
+    def nav_version = "2.4.2"
+    def retrofit_version = "2.9.0"
+    def rxJava_version = "3.0.0"
+    def dependency_injection = "2.26"
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.+'
+
+    /*ssp sdp for responsiveness*/
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //Dot Layout
+    implementation 'com.tbuonomo:dotsindicator:4.2'
+
+    //otp View
+    implementation 'io.github.chaosleung:pinview:1.4.4'
+
+    //Phone Selector Api
+    implementation "com.google.android.gms:play-services-auth:20.1.0"
+
+    //Retrofit & Gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+    // ViewModel
+    //noinspection GradleDependency
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    // LiveData
+    //noinspection GradleDependency
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    //dataBinding
+    annotationProcessor "com.android.databinding:compiler:$lifecycle_version"
+    // Saved state module for ViewModel
+    //noinspection GradleDependency
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+    // optional - Test helpers for LiveData
+    testImplementation "androidx.arch.core:core-testing:$arch_version"
+
+    //RxJava -composing asynchronous and event-based programs
+    implementation "io.reactivex.rxjava3:rxandroid:$rxJava_version"
+    //noinspection GradleDependency
+    implementation "io.reactivex.rxjava3:rxjava:$rxJava_version"
+
+    //Stage Progress bar
+    implementation 'com.shuhart.stepview:stepview:1.5.1'
+
+    //Bottom Navigation
+    implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
+
+    //ExoPlayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.17.1'
+
+    // dependency injection
+    implementation "com.google.dagger:dagger:$dependency_injection"
+    implementation "com.google.dagger:dagger-android-support:$dependency_injection"
+    annotationProcessor "com.google.dagger:dagger-compiler:$dependency_injection"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$dependency_injection"
+
+    //Balloon Tooltip
+    implementation "com.github.skydoves:balloon:1.4.4"
+}
+apply plugin: 'com.google.gms.google-services'

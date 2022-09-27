@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#176586</color>
+    <color name="purple_500">#0074d7</color>
+    <color name="purple_700">#0074d7</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#176586</color>
+    <color name="secondary">#386AB3</color>
+    <color name="link_blue">#0074D7</color>
+    <color name="blue_unselected">#D0E3FF</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_light_blue">#DCEFFF</color>
+    <color name="text_blue_light">#99BAF8</color>
+
+
+    <color name="unselected_background">#393939</color>
+    <color name="unselect_btn">#B9B9B9</color>
+    <color name="border_light_black">#9D9D9D</color>
+    <color name="gray">#838383</color>
+    <color name="gray_dark">#637589</color>
+    <color name="gray_light">#E7E7E7</color>
+
+    <color name="primary_text">#000000</color>
+    <color name="Black_transparent_80">#BF000000</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="text_blue">#0074D7</color>
+    <color name="text_lime">#00B5AA</color>
+
+    <color name="orange">#FF5722</color>
+    <color name="orange_btn">#FD4705</color>
+    <color name="red_text">#FF0000</color>
+
+    <color name="online">#33AD49</color>
+    <color name="green">#15C286</color>
+
+    <color name="yellow_color">#FFBB0C</color>
+
+</resources>

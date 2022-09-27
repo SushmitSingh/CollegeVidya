@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewPlus">
+        <attr name="customFont" format="string" />
+    </declare-styleable>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="button_style" parent="TextAppearance.AppCompat.Button">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">@dimen/_25sdp</item>
+        <item name="android:paddingEnd">@dimen/_25sdp</item>
+    </style>
+
+    <style name="button_style_skip" parent="TextAppearance.AppCompat.Button">
+        <item name="android:paddingTop">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_5sdp</item>
+        <item name="android:paddingStart">@dimen/_15sdp</item>
+        <item name="android:paddingEnd">@dimen/_15sdp</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="hintTextColor">@color/text_blue</item>
+        <item name="boxStrokeWidth">0.5dp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_6sdp</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+    </style>
+
+    <style name="TextInputLayoutStyle_black" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="hintTextColor">@color/black</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_6sdp</item>
+        <item name="boxStrokeColor">@color/black</item>
+    </style>
+
+    <style name="TextInputLayoutStyle_spinner_black" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="hintTextColor">@color/black</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_6sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_6sdp</item>
+        <item name="boxStrokeColor">@color/black</item>
+    </style>
+
+    <style name="MyCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_12px</item>
+    </style>
+
+
+    <style name="TextInputLayoutStyle_spinner" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <item name="hintTextColor">@color/black</item>
+        <item name="boxStrokeColor">@color/black</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomNav" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomNavigationStyle">
+            @style/Widget.MaterialComponents.BottomNavigationView.Colored
+        </item>
+        <item name="colorPrimary">@color/text_blue_light</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="colorOnPrimary">@color/blue_unselected</item>
+        <item name="tabSelectedTextColor">@color/text_blue_light</item>
+        <item name="tabIndicatorColor">@color/text_blue_light</item>
+        <item name="itemTextAppearance">@font/roboto_bold</item>
+    </style>
+
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">@dimen/_7sdp</item>
+        <item name="cornerSizeBottomLeft">@dimen/_7sdp</item>
+    </style>
+</resources>

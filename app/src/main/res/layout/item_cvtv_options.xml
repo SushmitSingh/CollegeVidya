@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.content.Context" />
+        <variable
+            name="viewModel"
+            type="com.app.collegevidya.data.viewmodel.CvTvOptionsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{viewModel.option}"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{(view)->viewModel.onItemClick(view)}"
+            android:background="@drawable/ic_cvtv_option"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            android:layout_margin="@dimen/_5sdp"
+            tools:text="Actions"
+            android:textColor="@drawable/drawable_color_open"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_14px"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
